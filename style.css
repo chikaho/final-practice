@@ -1,0 +1,381 @@
+body {
+  font-family: "Merriweather Sans", "Shippori Mincho", "Noto Sans JP";
+  max-width: 1280px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 12;
+}
+
+#logo {
+  width: 130px;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav > a {
+  margin-left:  20px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  
+}
+
+#top {
+  display: flex;
+  margin: auto 0;
+}
+
+.top1 {
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.top2 {
+  position: relative;
+  top: -140px;
+  left: 50px;
+  z-index: 10;
+}
+
+.top3 {
+  max-width: 1280px;
+  height: 584;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  top: -85px;
+  right: 530px;
+  border-radius: 0 0 0 400px;
+  z-index:11;
+}
+
+#news {
+ display: flex;
+ justify-content: space-between;
+  height: 64px;
+  margin: 20px 40px;
+  
+}
+
+.news-first {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+
+}
+
+.news-second {
+  color: #1B9240;
+}
+
+.nwes1 {
+  margin-left: 20px;
+}
+
+.nwes2 {
+  position: relative;
+  right: 70px;
+}
+
+.badge_tag {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: -5px;
+  right: 190px;
+}
+
+.nwes3 {
+  position: relative;
+  right: 280px;
+}
+
+.concept-inner {
+  display: flex;
+  margin: 40px auto;
+  
+}
+
+.concept-text {
+  width: 300px;
+  margin: 20px auto;
+  margin-right: 10px;
+}
+
+.concept-img {
+  width: 300px;
+  margin: 20px auto;
+  margin-left: 10px;
+}
+
+.concept-first {
+  font-family: "Shippori Mincho";
+  font-size: 25px;
+  font-weight: bold;
+  color: #1B9240
+
+}
+
+.BGicon {
+  position: relative;
+  top: -145px;
+  left: 180px;
+}
+
+.title-concept {
+  width: 600px;
+  position: relative;
+  top: -510px;
+  right: 390px;
+  z-index: 9;
+}
+
+#course {
+  margin: 20px auto;
+}
+
+.vector {
+  position: relative;
+  top: -170px;
+  z-index: 10;
+}
+
+.union {
+  position: relative;
+  top: -400px;
+  z-index: 11;
+}
+
+
+
+.title-course {
+  position: relative;
+  top: -1390px;
+  left: 110px;
+  z-index: 12;
+}
+
+.BGicon2 {
+  position: relative;
+  top: -850px;
+  left: 460px;
+  z-index: 12;
+}
+
+.course-details {
+  position: relative;
+  top: -1580px;
+  z-index: 12;
+}
+
+.course-guidance {
+text-align: center;
+}
+
+.insurance > img {
+  border-radius: 20px 20px 20px 20px;
+}
+ 
+
+.course-guidance > p {
+  color: #1B9240;
+  font-size: large;
+}
+
+
+.course-inner {
+  display: flex;
+  margin: 40px auto;
+}
+
+.insurance {
+  width: 400px;
+  margin: 20px auto;
+  margin-right: 10px;
+}
+
+.self {
+  width: 400px;
+  margin: 20px auto;
+  margin-left: 10px;
+}
+
+.self > img {
+  border-radius: 20px 20px 20px 20px;
+}
+ 
+
+ul > P {
+  font-size: large;
+  font-weight: bold;
+  color: #0c4324;
+  margin-left: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+.course-fee {
+  text-align: center;
+}
+
+#voice {
+  position: relative;
+  top: -1475px;
+  margin: 20px auto;
+}
+
+.voice-mainvisual {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0;
+}
+
+.circle {
+  position: relative;
+  top: -125px;
+  left: 335px;
+  z-index: 11;
+}
+
+.voice-details {
+  position: relative;
+  top: -210px;
+  z-index: 12;
+}
+
+.voice-title {
+  display: flex;
+  justify-content: center;
+}
+
+.voice-title >img {
+  width: 20px;
+  height: 30px;
+  margin: 0 25px;
+}
+
+.voice-title > p {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+  text-align: center;
+}
+
+.voice-text {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+  text-align: center;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 100px;
+  padding: 40px 60px;
+}
+
+.user1  > img {
+  border-radius: 150px 150px 150px 150px;
+}
+
+.user2  > img {
+  border-radius: 150px 150px 150px 150px;
+}
+
+.user3  > img {
+  border-radius: 150px 150px 150px 150px;
+}
+
+.user1 {
+  width: 250px;
+  
+}
+
+.user2 {
+  width: 250px;
+
+}
+
+.user3 {
+  width: 250px;
+  
+}
+
+.user-name {
+  font-size: large;
+  font-weight: bold;
+  color: #0c4324;
+}
+
+.voice-list {
+  justify-content: center;
+}
+
+.contact-img2 {
+  position: relative;
+  top: -95px;
+  z-index: 12;
+}
+
+#contact {
+  position: relative;
+  top: -1650px;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-title > img {
+  width: 20px;
+  height: 30px;
+  margin: 0 25px;
+}
+
+.message {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+  
+}
+
+.address1 {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+}
+
+.tel {
+  font-size: large;
+  font-weight: bold;
+  color: #1B9240;
+}
+
+.contact-detales{
+  margin: 20px 100px;
+}
+.contact-iner {
+  display: flex;
+
+}
+
+.contact-detales {
+  position: relative;
+  top: -950px;
+  z-index: 12;
+}
